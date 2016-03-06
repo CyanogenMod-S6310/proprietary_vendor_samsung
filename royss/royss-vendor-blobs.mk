@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/royss/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/royss/proprietary/bin/lpmkey:system/bin/lpmkey \
     vendor/samsung/royss/proprietary/bin/playlpm:system/bin/playlpm \
-    vendor/samsung/royss/proprietary/bin/get_macaddrs:system/bin/get_macaddrs \
     vendor/samsung/royss/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     vendor/samsung/royss/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/samsung/royss/proprietary/bin/qosmgr:system/bin/qosmgr \
@@ -44,5 +43,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/royss/proprietary/etc/thermald-8x25-msm1-pmic_therm.conf:system/etc/thermald-8x25-msm1-pmic_therm.conf \
     vendor/samsung/royss/proprietary/etc/thermald-8x25-msm2-msm_therm.conf:system/etc/thermald-8x25-msm2-msm_therm.conf \
     vendor/samsung/royss/proprietary/etc/thermald-8x25-msm2-pmic_therm.conf:system/etc/thermald-8x25-msm2-pmic_therm.conf \
-    vendor/samsung/royss/proprietary/etc/thermald-8x25q-msm2-msm_therm.conf:system/etc/thermald-8x25q-msm2-msm_therm.conf \
     vendor/samsung/royss/proprietary/etc/vold.fstab:system/etc/vold.fstab

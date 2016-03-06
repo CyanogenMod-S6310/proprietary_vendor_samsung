@@ -21,11 +21,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     $(LOCAL_PATH)/proprietary/system/bin/btnvtool:system/bin/btnvtool \
     $(LOCAL_PATH)/proprietary/system/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    $(LOCAL_PATH)/proprietary/system/lib/libbt-aptx.so:system/lib/libbt-aptx.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libbt-codec.so:system/lib/libbt-codec.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libbt-codec_aptx.so:system/lib/libbt-codec_aptx.so \
     $(LOCAL_PATH)/proprietary/system/lib/libdbus.so:system/lib/libdbus.so \
-    $(LOCAL_PATH)/proprietary/system/etc/init.bt.sh:system/etc/init.bt.sh \
     $(LOCAL_PATH)/proprietary/system/etc/PSConfig_7820.psr:system/etc/PSConfig_7820.psr \
     $(LOCAL_PATH)/proprietary/system/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     $(LOCAL_PATH)/proprietary/system/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -77,8 +73,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libOpenVG.so:system/lib/libOpenVG.so \
     $(LOCAL_PATH)/proprietary/system/lib/libgsl.so:system/lib/libgsl.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libC2D2.so:system/lib/libC2D2.so \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin \
@@ -146,12 +140,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libqdp.so:system/lib/libqdp.so \
     $(LOCAL_PATH)/proprietary/system/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     $(LOCAL_PATH)/proprietary/system/lib/libqmi.so:system/lib/libqmi.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libqmi_client_griffon.so:system/lib/libqmi_client_griffon.so \
     $(LOCAL_PATH)/proprietary/system/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     $(LOCAL_PATH)/proprietary/system/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     $(LOCAL_PATH)/proprietary/system/lib/libqmiservices.so:system/lib/libqmiservices.so \
     $(LOCAL_PATH)/proprietary/system/lib/libqueue.so:system/lib/libqueue.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libsec.so:system/lib/libsec.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)/proprietary/system/lib/libwms.so:system/lib/libwms.so \
     $(LOCAL_PATH)/proprietary/system/lib/libwvm.so:system/lib/libwvm.so
