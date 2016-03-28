@@ -21,7 +21,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     $(LOCAL_PATH)/proprietary/system/bin/btnvtool:system/bin/btnvtool \
     $(LOCAL_PATH)/proprietary/system/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    $(LOCAL_PATH)/proprietary/system/bin/bccmd:system/bin/bccmd \
     $(LOCAL_PATH)/proprietary/system/lib/libdbus.so:system/lib/libdbus.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libbluetooth.so:system/lib/libbluetooth.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libbtio.so:system/lib/libbtio.so \
     $(LOCAL_PATH)/proprietary/system/etc/PSConfig_7820.psr:system/etc/PSConfig_7820.psr \
     $(LOCAL_PATH)/proprietary/system/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     $(LOCAL_PATH)/proprietary/system/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
