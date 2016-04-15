@@ -17,11 +17,18 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/royss/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/royss/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/samsung/royss/proprietary/system/bin/btnvtool:system/bin/btnvtool \
+    vendor/samsung/royss/proprietary/system/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/samsung/royss/proprietary/system/bin/bccmd:system/bin/bccmd \
     vendor/samsung/royss/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/royss/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/royss/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/samsung/royss/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/samsung/royss/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/royss/proprietary/system/lib/libdbus.so:system/lib/libdbus.so \
+    vendor/samsung/royss/proprietary/system/lib/libbluetooth.so:system/lib/libbluetooth.so \
+    vendor/samsung/royss/proprietary/system/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
+    vendor/samsung/royss/proprietary/system/lib/libbtio.so:system/lib/libbtio.so \
     vendor/samsung/royss/proprietary/bin/lpmkey:system/bin/lpmkey \
     vendor/samsung/royss/proprietary/bin/playlpm:system/bin/playlpm \
     vendor/samsung/royss/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
@@ -39,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/royss/proprietary/etc/init.qcom.thermald_conf.sh:system/etc/init.qcom.thermald_conf.sh \
     vendor/samsung/royss/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
     vendor/samsung/royss/proprietary/etc/init.target.8x25.sh:system/etc/init.target.8x25.sh \
+    vendor/samsung/royss/proprietary/system/etc/PSConfig_7820.psr:system/etc/PSConfig_7820.psr \
     vendor/samsung/royss/proprietary/etc/param.dat:system/etc/param.dat \
     vendor/samsung/royss/proprietary/etc/thermald-8x25-msm1-pmic_therm.conf:system/etc/thermald-8x25-msm1-pmic_therm.conf \
     vendor/samsung/royss/proprietary/etc/thermald-8x25-msm2-msm_therm.conf:system/etc/thermald-8x25-msm2-msm_therm.conf \
